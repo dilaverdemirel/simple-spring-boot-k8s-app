@@ -8,6 +8,7 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>jar</packaging>
     <groupId>com.dilaverdemirel</groupId>
     <artifactId>simple-spring-boot-k8s-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -18,6 +19,7 @@
         <java.version>1.8</java.version>
         <docker.image.prefix>ddemirel</docker.image.prefix>
         <docker.host>http://localhost:2375</docker.host>
+        <docker.plugin.version>0.4.9</docker.plugin.version>
     </properties>
 
     <dependencies>

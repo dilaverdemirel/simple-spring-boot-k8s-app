@@ -35,7 +35,7 @@ node {
                     DOCKER_HOST_PORT = ""
                     DOCKER_REGISTRY_CREDENTIALS_ID = ""
                     DOCKER_IMAGE_DEFAULT_NAME = "ddemirel/simple-spring-boot-k8s-app:latest"
-                    DOCKER_IMAGE_REGISTY_NAME_PREFIX = "gcr.io/simple-cloud-project/simple-spring-boot-k8s-app"
+                    DOCKER_IMAGE_REGISTY_NAME_PREFIX = "gcr.io/[sizin_gcp_projenizin_adı]/simple-spring-boot-k8s-app"
 
                     def matcher = readFile('pom.xml') =~ '<version>(.+?)</version>'
                     PROJECT_MAVEN_VERSION = matcher ? matcher[0][1] : null

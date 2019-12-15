@@ -7,5 +7,5 @@ ADD start.sh /start.sh
 RUN sed -i 's/\r$//' /start.sh  && \
         chmod +x /start.sh
 
-EXPOSE 8080
+EXPOSE 8090
 CMD ["sh","./start.sh"]
